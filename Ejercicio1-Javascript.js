@@ -22,6 +22,8 @@ var espacio, tiempo, Velocidad, txt1, txt2, txt3, txt4;
       }
     }
   }
+
+console.log("\n\n\tMenú\n\n\t1.Velocidad\n\n\t2.Espacio\n\n\t3.Tiempo")
 txt1 = parseInt(prompt("Favor ingresar opcion: "));
 
 while (txt1 != 4) {
@@ -42,7 +44,7 @@ while (txt1 != 4) {
       console.log( fisica(3, txt2, txt3));
       break;
     default:
-      console.log("Favor ingresar una opcion valida de menu");
+      console.log("Favor ingresar Una Opción Valida de Menú");
   }
-  txt1 = parseInt(prompt("Favor ingresar una opcion: "));
+  txt1 = parseInt(prompt("Favor Ingresar Una Opción: "));
 }
