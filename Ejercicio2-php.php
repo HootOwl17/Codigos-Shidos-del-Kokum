@@ -11,7 +11,7 @@
     <br>
         <?php
         $fuerza = $_POST['fuerza'];
-        $gravedad = '9.8';
+        $gravedad = 9.8;
         $peso = $fuerza/ $gravedad;
         echo "Su peso es de $peso Kg";
          ?>
